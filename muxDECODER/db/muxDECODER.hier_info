@@ -1,0 +1,65 @@
+|muxDECODER
+imp1[0] => mux5_1:u0.u[0]
+imp1[1] => mux5_1:u0.u[1]
+imp1[2] => mux5_1:u0.u[2]
+imp2[0] => mux5_1:u0.v[0]
+imp2[1] => mux5_1:u0.v[1]
+imp2[2] => mux5_1:u0.v[2]
+imp3[0] => mux5_1:u0.w[0]
+imp3[1] => mux5_1:u0.w[1]
+imp3[2] => mux5_1:u0.w[2]
+imp4[0] => mux5_1:u0.x[0]
+imp4[1] => mux5_1:u0.x[1]
+imp4[2] => mux5_1:u0.x[2]
+imp5[0] => mux5_1:u0.y[0]
+imp5[1] => mux5_1:u0.y[1]
+imp5[2] => mux5_1:u0.y[2]
+s0 => mux5_1:u0.S0
+s1 => mux5_1:u0.S1
+s2 => mux5_1:u0.S2
+
+
+|muxDECODER|mux5_1:u0
+u[0] => M.DATAB
+u[1] => M.DATAB
+u[2] => M.DATAB
+v[0] => M.DATAB
+v[1] => M.DATAB
+v[2] => M.DATAB
+w[0] => M.DATAB
+w[1] => M.DATAB
+w[2] => M.DATAB
+x[0] => M.DATAB
+x[1] => M.DATAB
+x[2] => M.DATAB
+y[0] => M.DATAA
+y[1] => M.DATAA
+y[2] => M.DATAA
+S0 => M.IN0
+S0 => M.IN0
+S1 => M.IN1
+S1 => M.IN1
+S2 => M.IN1
+S2 => M.IN1
+S2 => M.IN1
+S2 => M.IN1
+
+
+|muxDECODER|decoder:u1
+totto[0] => LessThan0.IN6
+totto[0] => LessThan1.IN6
+totto[0] => LessThan2.IN6
+totto[0] => LessThan3.IN6
+totto[0] => LessThan4.IN6
+totto[1] => LessThan0.IN5
+totto[1] => LessThan1.IN5
+totto[1] => LessThan2.IN5
+totto[1] => LessThan3.IN5
+totto[1] => LessThan4.IN5
+totto[2] => LessThan0.IN4
+totto[2] => LessThan1.IN4
+totto[2] => LessThan2.IN4
+totto[2] => LessThan3.IN4
+totto[2] => LessThan4.IN4
+
+

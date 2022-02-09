@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity RS is port
+(clk,R,S:in std_logic;
+Q:out std_logic
+);
+end RS;
+architecture archofRS of RS is
+signal qa,qb,sg,rg:std_logic;
+begin
+ rg<=R and clk;
+ sg<=S and clk;
+ qa<=not(rg or qb) ;
+ qb<=not(qa or sg);
+ Q<=qa;
+ end archofRS;
+
+Entity MasterSlave is port
+(
+D,clock: in std_logic;
+Q,Qa:out std_logic
+);
+end MasterSlave;
+
+Architecture arch of MasterSlave is
+component RS is
+(D,clk: in std_logic;
+ Q,Qa: out std_logic
+);
+end component;
+signal Qm,Qs,c: std_logic;
+begin 
+  c<=not(clock);
+u1:RS port map (D,c,Qm,Qa);
+u2:RS port map (Qm,clock,Q,Qa);
+end arch;
+
+
+
+

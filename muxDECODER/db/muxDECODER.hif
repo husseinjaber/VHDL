@@ -1,0 +1,151 @@
+Quartus II 32-bit
+Version 11.1 Build 173 11/01/2011 SJ Web Edition
+14
+1330
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+muxDECODER
+# storage
+db|muxDECODER.(0).cnf
+db|muxDECODER.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+muxdecoder.vhd
+5a5dc49b1c2376302358b91fb22ec0
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+mux5_1
+# storage
+db|muxDECODER.(1).cnf
+db|muxDECODER.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+muxdecoder.vhd
+5a5dc49b1c2376302358b91fb22ec0
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(u)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(v)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(w)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(x)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(m)
+2 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux5_1:u0
+}
+# macro_sequence
+
+# end
+# entity
+decoder
+# storage
+db|muxDECODER.(2).cnf
+db|muxDECODER.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+muxdecoder.vhd
+5a5dc49b1c2376302358b91fb22ec0
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(totto)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(display)
+6 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+decoder:u1
+}
+# macro_sequence
+
+# end
+# complete
+

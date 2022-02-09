@@ -1,0 +1,41 @@
+|mux5_1
+u[0] => M.DATAB
+u[0] => LedR[0].DATAIN
+u[1] => M.DATAB
+u[1] => LedR[1].DATAIN
+u[2] => M.DATAB
+u[2] => LedR[2].DATAIN
+v[0] => M.DATAB
+v[0] => LedR[3].DATAIN
+v[1] => M.DATAB
+v[1] => LedR[4].DATAIN
+v[2] => M.DATAB
+v[2] => LedR[5].DATAIN
+w[0] => M.DATAB
+w[0] => LedR[6].DATAIN
+w[1] => M.DATAB
+w[1] => LedR[7].DATAIN
+w[2] => M.DATAB
+w[2] => LedR[8].DATAIN
+x[0] => M.DATAB
+x[0] => LedR[9].DATAIN
+x[1] => M.DATAB
+x[1] => LedR[10].DATAIN
+x[2] => M.DATAB
+x[2] => LedR[11].DATAIN
+y[0] => M.DATAA
+y[0] => LedR[12].DATAIN
+y[1] => M.DATAA
+y[1] => LedR[13].DATAIN
+y[2] => M.DATAA
+y[2] => LedR[14].DATAIN
+S0 => M.IN0
+S0 => M.IN0
+S1 => M.IN1
+S1 => M.IN1
+S2 => M.IN1
+S2 => M.IN1
+S2 => M.IN1
+S2 => M.IN1
+
+

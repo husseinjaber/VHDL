@@ -1,0 +1,18 @@
+|decoder
+totto[0] => Equal0.IN1
+totto[0] => Equal1.IN2
+totto[0] => Equal2.IN1
+totto[0] => Equal3.IN2
+totto[0] => Equal4.IN2
+totto[1] => Equal0.IN0
+totto[1] => Equal1.IN1
+totto[1] => Equal2.IN2
+totto[1] => Equal3.IN1
+totto[1] => Equal4.IN1
+totto[2] => Equal0.IN2
+totto[2] => Equal1.IN0
+totto[2] => Equal2.IN0
+totto[2] => Equal3.IN0
+totto[2] => Equal4.IN0
+
+
